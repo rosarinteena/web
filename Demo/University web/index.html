@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <title>University Website Design</title>
+   <link rel="stylesheet"href="style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>World's Biggest University</h1>
+    <p>GROW-GLOW-GRADUATE</p>
+    <a href=""class="hero-btn">Visit Us to know more</a>
+</div>
+    </section>
+
+
+
+<!------Course------>
+
+<section class="course">
+     <h1>Courses We Offer</h1>
+     <p>Impacting the future everyday</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3> Intermediate</h3>
+            <p>Mastering a Skill takes Time</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Mastering a Skill takes Time</p>
+        </div>
+        <div class="course-col">
+            <h3> Post Graduation</h3>
+            <p>Mastering a Skill takes Time</p>
+        </div>
+    </div>
+</section>
+
+<!------Campus------>
+
+<section class="campus">
+    <h1>Our PEC Campus</h1>
+    <p>Eco Friendly Campus</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png">
+            <div class="layer">
+                <h3>PEC</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/newyork.png">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>    
+        <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="layer">
+                <h3>Washington</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!------ Facilities------>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>FeelS Like Home</p>
+
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>Pleasant Reading</p>
+        </div> 
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play World</h3>
+            <p>Lorem Ipsum</p>
+        </div> 
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healthy Food </h3>
+            <p>Lorem Ipsum</p>
+        </div> 
+    </div>
+
+
+</section>
+
+<!------testimonials------>
+
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p> Best Place Best Education</p>
+
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/user1.jpg">
+            <div> 
+                <p>College is an educational school where people go to learn and earn an academic degree upon graduation</p>
+                <h3>Sunita</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user2.jpg">
+                <div> 
+                    <p>In my college life, along with studying, I and my friends enjoyed a lot of other things. We traveled to lots of places, had new experiences, and learned many new things.</p>
+                    <h3>Prathap</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div> 
+    </div>    
+</section>
+
+<!------ Call To Action------>
+
+<section class="cta">
+    <h1>Enroll For Our Various online courses<br>Anywhere Anytime</h1>
+    <a href=""class="hero-btn">CONTACT US</a>
+</section>
+
+<!----- Footer------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>PEC where you Glow Grow and Graduate</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>  
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+
+<!------Javascript for  Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
